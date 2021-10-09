@@ -1,0 +1,123 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+h2 {
+    font-weight: initial;
+    color: #585661;
+    font-weight: 200;
+    margin-bottom: 0;
+}
+
+div.power {
+    color: #414256;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+header p {
+    width: 30%;
+    text-align: center;
+    color: #58585b;
+    font-weight: 400;
+    margin-bottom: 60px;
+}
+
+main {
+    display: grid;
+    grid-template-areas: "none two s" "one two three" "one two2 three" "cx two2 ng";
+    height: 600px;
+    gap: 40px;
+    width: 1170px;
+    margin-inline: auto;
+    grid-template-columns: repeat(3, 1fr);
+    height: auto;
+}
+
+.Supervisor {
+    width: auto;
+    height: auto;
+    background-color: white;
+    grid-area: one;
+    border-top: 4px solid #40d5d3;
+}
+
+.Team {
+    grid-area: two;
+    width: auto;
+    height: auto;
+    background-color: white;
+    grid-area: two;
+    border-top: 4px solid #ea5551;
+}
+
+.Karma {
+    width: auto;
+    height: auto;
+    background-color: white;
+    grid-area: two2;
+    border-top: 4px solid #fbad4b;
+}
+
+.Calculator {
+    width: auto;
+    height: auto;
+    background-color: white;
+    grid-area: three;
+    border-top: 4px solid #519ff2;
+}
+
+main div {
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+main>div {
+    padding: 5%;
+    box-shadow: black 0px 10px 33px -21px;
+    display: flex;
+    flex-direction: column;
+}
+
+h3 {
+    color: #414256;
+}
+
+main p {
+    color: #58585b;
+    margin-bottom: 25px;
+}
+
+main img {
+    width: 60px;
+}
+
+.control_img {
+    padding: 5%;
+    text-align: right;
+}
+
+footer {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}

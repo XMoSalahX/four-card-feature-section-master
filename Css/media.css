@@ -1,0 +1,27 @@
+@media (max-width:1200px) {
+    main {
+        grid-template-areas: "one" "two" "two2" "three";
+        width: 80%;
+        grid-template-columns: 1fr;
+    }
+    header p {
+        width: 75%;
+    }
+    footer {
+        position: initial;
+        bottom: initial;
+        margin-top: 40px;
+    }
+}
+
+@media (max-width:280px) {
+    h2 {
+        font-size: 20px;
+    }
+    div.power {
+        font-size: unset;
+    }
+    header p {
+        font-size: 12px;
+    }
+}
